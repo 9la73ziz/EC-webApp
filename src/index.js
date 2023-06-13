@@ -10,6 +10,8 @@ import { store, persistor } from "./store/store";
 import { stripePromise } from "./utils/stripe/stripe.utils";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
+import "./index.scss";
+
 const rootElement = document.getElementById("root");
 
 render(

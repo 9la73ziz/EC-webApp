@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const NavigationContainer = styled.div`
   height: 70px;
@@ -22,7 +22,7 @@ export const LogoContainer = styled(Link)`
 
   @media screen and (max-width: 800px) {
     width: 50px;
-    padding: 0px;
+    padding: 0;
   }
 `;
 
